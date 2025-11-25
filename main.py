@@ -22,6 +22,6 @@ while True:
                 print("My number is bigger!")
 
             else:
-                print("You won! 🎉🎉 Your tries this round:",tries," To restart, type 1. To exit, type anything")
+                print("You won! Your tries this round:",tries,"\nTo restart, type 1. To exit, type any number.")
                 break
     else: break

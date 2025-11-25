@@ -3,7 +3,7 @@ import random
 
 
 print("Hello!👋 The goal of the game is to guess a number from 1 to 50, to start, type 1:")
-
+tries=0
 while True:
     answer = int(input())
     if answer==1:
@@ -13,7 +13,7 @@ while True:
 
 
         while True:
-
+            tries += 1
             user_input = int(input())
             if user_input>my_number:
                 print("My number is smaller!")
@@ -22,6 +22,6 @@ while True:
                 print("My number is bigger!")
 
             else:
-                print("You won! 🎉🎉 To restart, type 1. To exit, type anything")
+                print("You won! 🎉🎉 Your tries this round:",tries," To restart, type 1. To exit, type anything")
                 break
     else: break

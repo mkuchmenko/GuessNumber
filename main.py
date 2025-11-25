@@ -2,7 +2,7 @@ import random
 
 
 
-print("Hello! The goal of the game is to guess a number from 1 to 50, to start, type 1:")
+print("Hello!👋 The goal of the game is to guess a number from 1 to 50, to start, type 1:")
 
 while True:
     answer = int(input())
@@ -22,6 +22,6 @@ while True:
                 print("My number is bigger!")
 
             else:
-                print("You won! To restart, type 1. To exit, type anything")
+                print("You won! 🎉🎉 To restart, type 1. To exit, type anything")
                 break
     else: break

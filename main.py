@@ -26,6 +26,6 @@ while True:
                 else:
                     print("You won! Your tries this round:",tries,"\nTo restart, type 1. To exit, type any number.")
                     tries=0
-                break
+                    break
             else:  print("Type a number from 1 to 50")
     else: break

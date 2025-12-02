@@ -6,7 +6,9 @@ tries=0
 while True:
     answer = int(input())
     if answer==1:
-        print("Type your guess:")
+        print("Type your name:")
+        name=input()
+        print("Hi ",name,"! Type your guess:")
 
         my_number=random.randint(1,50)
 
